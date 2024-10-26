@@ -35,7 +35,7 @@
    - **Buffer Size**: Choose a buffer size to balance transfer speed and memory use.
    - **Pause Duration**: Add a custom interval between file transfers if needed.
 
-3. **Boil the Pasta (Start Copying)**:
+3. **Start Copying**:
    - Click **Copy** to start. Watch the progress bar as CopyPasta transfers your files with flavour!
    - **Pause/Resume** anytime, or **Stop** if you need to cancel.
 
