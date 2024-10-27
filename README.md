@@ -5,7 +5,7 @@
 
 - **Pause and Resume**: Need a quick break? Pause and resume transfers anytime.
 - **Detailed Logging**: Track file operations in CSV or JSON logs, complete with timestamps.
-- **Buffer Size Control**: Adjust the transfer buffer to suit your needs.
+- **Buffer Size Control**: Auto for each file or adjust it to suit your needs.
 - **File Integrity Verification**: Check copied files with hash and size comparisons for peace of mind.
 
 ## 🛠 Installation
