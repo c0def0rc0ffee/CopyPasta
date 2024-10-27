@@ -30,7 +30,7 @@
    - **Duplicate Handling**: Choose how to handle existing files (overwrite, skip, or ask for each file).
    - **Logging**: Enable CSV or JSON logging and set the output paths.
    - **Buffer Size**: Choose a buffer size to balance transfer speed and memory use.
-   - **Pause Duration**: Add a custom interval between file transfers if needed.
+   - **Pause Duration**: Add a custom interval between file transfers if needed. I found this to be useful copying large volumes of small files.
 
 3. **Start Copying**:
    - Click **Copy** to start. Watch the progress bar as CopyPasta transfers your files with flavour!
