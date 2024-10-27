@@ -1,7 +1,6 @@
 # 🍝 CopyPasta
 
-**CopyPasta** – This app lets you manage file transfers effortlessly with detailed logging, pausing and resuming options, and duplicate handling. Every feature has been carefully handwritten **on the form**. Whether it’s media files, backups, or large folders of data, CopyPasta ensures every file transfer is served al dente!
-
+**CopyPasta** – This app lets you manage file transfers effortlessly with detailed logging, pausing and resuming options, and duplicate handling. Every feature has been carefully handwritten **on the form** for supreme coding efficiency. 
 ## 🍜 Features
 
 - **Pause and Resume**: Need a quick break? Pause and resume transfers anytime.
