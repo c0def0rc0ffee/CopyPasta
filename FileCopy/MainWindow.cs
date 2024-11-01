@@ -50,18 +50,13 @@ namespace FileCopy
 
             // Get the current assembly
             var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-
             // Format the version string to exclude trailing zeros (build and revision numbers)
             string formattedVersion = version.Revision == 0
                 ? (version.Build == 0
                     ? $"{version.Major}.{version.Minor}"
                     : $"{version.Major}.{version.Minor}.{version.Build}")
                 : version.ToString();
-
-            // Set the form's title with the version number
-            this.Text = "Copy Pasta" + $" v{formattedVersion}";
-
-
+            lblVersion.Text = $"{formattedVersion}";
 
             cmbBufferSize.Items.Add("Auto");
             cmbBufferSize.Items.Add("4 KB");

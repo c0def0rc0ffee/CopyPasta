@@ -64,6 +64,7 @@
             lblSkippedFiles = new Label();
             OverallProgress = new ProgressBar();
             lblTransferredSize = new Label();
+            lblVersion = new Label();
             grpSource.SuspendLayout();
             grpDestination.SuspendLayout();
             grpOptions.SuspendLayout();
@@ -412,11 +413,21 @@
             lblTransferredSize.TabIndex = 20;
             lblTransferredSize.Text = "lblTransferredSize";
             // 
+            // lblVersion
+            // 
+            lblVersion.AutoSize = true;
+            lblVersion.Location = new Point(0, 609);
+            lblVersion.Name = "lblVersion";
+            lblVersion.Size = new Size(58, 15);
+            lblVersion.TabIndex = 21;
+            lblVersion.Text = "lblVersion";
+            // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(911, 624);
+            Controls.Add(lblVersion);
             Controls.Add(lblTransferredSize);
             Controls.Add(lblFileCount);
             Controls.Add(OverallProgress);
@@ -490,5 +501,6 @@
         private Label lblTransferredSize;
         private CheckBox chkVerifyFileSize;
         private CheckBox chkCheckCompareHash;
+        private Label lblVersion;
     }
 }
