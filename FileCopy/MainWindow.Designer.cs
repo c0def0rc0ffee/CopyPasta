@@ -186,11 +186,11 @@
             // chkCheckCompareHash
             // 
             chkCheckCompareHash.AutoSize = true;
-            chkCheckCompareHash.Location = new Point(422, 109);
+            chkCheckCompareHash.Location = new Point(409, 109);
             chkCheckCompareHash.Name = "chkCheckCompareHash";
-            chkCheckCompareHash.Size = new Size(154, 19);
+            chkCheckCompareHash.Size = new Size(141, 19);
             chkCheckCompareHash.TabIndex = 14;
-            chkCheckCompareHash.Text = "chkCheckCompareHash";
+            chkCheckCompareHash.Text = "Check Compare Hash";
             chkCheckCompareHash.UseVisualStyleBackColor = true;
             // 
             // chkVerifyFileSize
@@ -198,9 +198,9 @@
             chkVerifyFileSize.AutoSize = true;
             chkVerifyFileSize.Location = new Point(304, 109);
             chkVerifyFileSize.Name = "chkVerifyFileSize";
-            chkVerifyFileSize.Size = new Size(112, 19);
+            chkVerifyFileSize.Size = new Size(99, 19);
             chkVerifyFileSize.TabIndex = 13;
-            chkVerifyFileSize.Text = "chkVerifyFileSize";
+            chkVerifyFileSize.Text = "Verify File Size";
             chkVerifyFileSize.UseVisualStyleBackColor = true;
             // 
             // cmbPauseDuration
