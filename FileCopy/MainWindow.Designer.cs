@@ -42,15 +42,15 @@
             chkCheckCompareHash = new CheckBox();
             chkVerifyFileSize = new CheckBox();
             cmbPauseDuration = new ComboBox();
-            label3 = new Label();
+            lblLPause = new Label();
             cmbBufferSize = new ComboBox();
-            label2 = new Label();
+            lblLBufferSize = new Label();
             btnJSONFileBrowse = new Button();
             txtJSONFileLocation = new TextBox();
             chkOutputToJSON = new CheckBox();
             btnCSVFileBrowse = new Button();
             cmbExistingFile = new ComboBox();
-            label1 = new Label();
+            lblLExistingSelection = new Label();
             txtCSVFileLocation = new TextBox();
             chkOutputToCSV = new CheckBox();
             btnClose = new Button();
@@ -166,15 +166,15 @@
             grpOptions.Controls.Add(chkCheckCompareHash);
             grpOptions.Controls.Add(chkVerifyFileSize);
             grpOptions.Controls.Add(cmbPauseDuration);
-            grpOptions.Controls.Add(label3);
+            grpOptions.Controls.Add(lblLPause);
             grpOptions.Controls.Add(cmbBufferSize);
-            grpOptions.Controls.Add(label2);
+            grpOptions.Controls.Add(lblLBufferSize);
             grpOptions.Controls.Add(btnJSONFileBrowse);
             grpOptions.Controls.Add(txtJSONFileLocation);
             grpOptions.Controls.Add(chkOutputToJSON);
             grpOptions.Controls.Add(btnCSVFileBrowse);
             grpOptions.Controls.Add(cmbExistingFile);
-            grpOptions.Controls.Add(label1);
+            grpOptions.Controls.Add(lblLExistingSelection);
             grpOptions.Controls.Add(txtCSVFileLocation);
             grpOptions.Controls.Add(chkOutputToCSV);
             grpOptions.Location = new Point(12, 145);
@@ -212,14 +212,14 @@
             cmbPauseDuration.Size = new Size(69, 23);
             cmbPauseDuration.TabIndex = 12;
             // 
-            // label3
+            // lblLPause
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(149, 110);
-            label3.Name = "label3";
-            label3.Size = new Size(65, 15);
-            label3.TabIndex = 11;
-            label3.Text = "Pause (ms)";
+            lblLPause.AutoSize = true;
+            lblLPause.Location = new Point(149, 110);
+            lblLPause.Name = "lblLPause";
+            lblLPause.Size = new Size(65, 15);
+            lblLPause.TabIndex = 11;
+            lblLPause.Text = "Pause (ms)";
             // 
             // cmbBufferSize
             // 
@@ -230,14 +230,14 @@
             cmbBufferSize.Size = new Size(62, 23);
             cmbBufferSize.TabIndex = 9;
             // 
-            // label2
+            // lblLBufferSize
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(6, 110);
-            label2.Name = "label2";
-            label2.Size = new Size(62, 15);
-            label2.TabIndex = 8;
-            label2.Text = "Buffer Size";
+            lblLBufferSize.AutoSize = true;
+            lblLBufferSize.Location = new Point(6, 110);
+            lblLBufferSize.Name = "lblLBufferSize";
+            lblLBufferSize.Size = new Size(62, 15);
+            lblLBufferSize.TabIndex = 8;
+            lblLBufferSize.Text = "Buffer Size";
             // 
             // btnJSONFileBrowse
             // 
@@ -287,14 +287,14 @@
             cmbExistingFile.Size = new Size(469, 23);
             cmbExistingFile.TabIndex = 3;
             // 
-            // label1
+            // lblLExistingSelection
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(6, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(234, 15);
-            label1.TabIndex = 2;
-            label1.Text = "If an existing file is found in the destination";
+            lblLExistingSelection.AutoSize = true;
+            lblLExistingSelection.Location = new Point(6, 79);
+            lblLExistingSelection.Name = "lblLExistingSelection";
+            lblLExistingSelection.Size = new Size(234, 15);
+            lblLExistingSelection.TabIndex = 2;
+            lblLExistingSelection.Text = "If an existing file is found in the destination";
             // 
             // txtCSVFileLocation
             // 
@@ -477,7 +477,7 @@
         private Label lblFileNameSize;
         private GroupBox grpOptions;
         private ComboBox cmbExistingFile;
-        private Label label1;
+        private Label lblLExistingSelection;
         private TextBox txtCSVFileLocation;
         private CheckBox chkOutputToCSV;
         private Button btnCSVFileBrowse;
@@ -488,11 +488,11 @@
         private Button btnPause;
         private Button btnStop;
         private ListView lstLog;
-        private Label label2;
+        private Label lblLBufferSize;
         private ComboBox cmbBufferSize;
         private Label lblBufferSize;
         private Label lblFileCount;
-        private Label label3;
+        private Label lblLPause;
         private ComboBox cmbPauseDuration;
         private Label lblFileErrors;
         private Label lblSuccTransfers;
