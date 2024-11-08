@@ -8,17 +8,7 @@
 - **Buffer Size Control**: Auto for each file or adjust it to suit your needs.
 - **File Integrity Verification**: Check copied files with hash and size comparisons for peace of mind.
 
-## 🛠 Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/copypasta.git
-   cd copypasta
-
-2. **Open the Project**:
-   - Launch the solution in Visual Studio and build the project.
-
-3. **Install Required Packages**:
+1. **Install Required Packages**:
    - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json): `dotnet add package Newtonsoft.Json`
 
 ## 🍲 How to Use CopyPasta
