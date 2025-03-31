@@ -1,7 +1,7 @@
-# 🍝 CopyPasta
+#  CopyPasta
 
 **CopyPasta** – This app lets you manage file transfers effortlessly with detailed logging, pausing and resuming options, and duplicate handling. Every feature has been carefully handwritten **on the form** for supreme coding efficiency. 
-## 🍜 Features
+##  Features
 
 - **Pause and Resume**: Need a quick break? Pause and resume transfers anytime.
 - **Detailed Logging**: Track file operations in CSV or JSON logs, complete with timestamps.
@@ -11,7 +11,7 @@
 1. **Install Required Packages**:
    - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json): `dotnet add package Newtonsoft.Json`
 
-## 🍲 How to Use CopyPasta
+##  How to Use CopyPasta
 
 1. **Select Your Pasta Ingredients**:
    - Choose your *Source Folder* (where files are copied from) and *Destination Folder* (where files are copied to).
