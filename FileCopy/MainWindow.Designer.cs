@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             grpSource = new GroupBox();
             btnSourceBrowse = new Button();
             txtSource = new TextBox();
@@ -293,7 +294,7 @@
             lblLExistingSelection.AutoSize = true;
             lblLExistingSelection.Location = new Point(6, 79);
             lblLExistingSelection.Name = "lblLExistingSelection";
-            lblLExistingSelection.Size = new Size(234, 15);
+            lblLExistingSelection.Size = new Size(233, 15);
             lblLExistingSelection.TabIndex = 2;
             lblLExistingSelection.Text = "If an existing file is found in the destination";
             // 
@@ -385,7 +386,7 @@
             lblSuccTransfers.AutoSize = true;
             lblSuccTransfers.Location = new Point(223, 533);
             lblSuccTransfers.Name = "lblSuccTransfers";
-            lblSuccTransfers.Size = new Size(91, 15);
+            lblSuccTransfers.Size = new Size(92, 15);
             lblSuccTransfers.TabIndex = 16;
             lblSuccTransfers.Text = "lblSuccTransfers";
             // 
@@ -410,7 +411,7 @@
             lblTransferredSize.AutoSize = true;
             lblTransferredSize.Location = new Point(12, 582);
             lblTransferredSize.Name = "lblTransferredSize";
-            lblTransferredSize.Size = new Size(98, 15);
+            lblTransferredSize.Size = new Size(99, 15);
             lblTransferredSize.TabIndex = 20;
             lblTransferredSize.Text = "lblTransferredSize";
             // 
@@ -459,6 +460,7 @@
             Controls.Add(grpDestination);
             Controls.Add(grpSource);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "MainWindow";
             SizeGripStyle = SizeGripStyle.Hide;
