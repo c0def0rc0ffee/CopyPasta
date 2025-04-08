@@ -65,6 +65,7 @@
             OverallProgress = new ProgressBar();
             lblTransferredSize = new Label();
             lblVersion = new Label();
+            btnDarkMode = new Button();
             grpSource.SuspendLayout();
             grpDestination.SuspendLayout();
             grpOptions.SuspendLayout();
@@ -422,11 +423,22 @@
             lblVersion.TabIndex = 21;
             lblVersion.Text = "lblVersion";
             // 
+            // btnDarkMode
+            // 
+            btnDarkMode.Location = new Point(477, 591);
+            btnDarkMode.Name = "btnDarkMode";
+            btnDarkMode.Size = new Size(75, 23);
+            btnDarkMode.TabIndex = 22;
+            btnDarkMode.Text = "button1";
+            btnDarkMode.UseVisualStyleBackColor = true;
+            btnDarkMode.Click += btnDarkMode_Click;
+            // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(911, 624);
+            Controls.Add(btnDarkMode);
             Controls.Add(lblVersion);
             Controls.Add(lblTransferredSize);
             Controls.Add(lblFileCount);
@@ -502,5 +514,6 @@
         private CheckBox chkVerifyFileSize;
         private CheckBox chkCheckCompareHash;
         private Label lblVersion;
+        private Button btnDarkMode;
     }
 }

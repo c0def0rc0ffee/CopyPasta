@@ -910,5 +910,25 @@ namespace FileCopy
             }));
         }
 
+        private void btnDarkMode_Click(object sender, EventArgs e)
+        {
+            if (this.BackColor.Equals(SystemColors.Control))
+            {
+                this.BackColor = Color.FromArgb(64, 64, 64);
+                this.ForeColor = Color.WhiteSmoke;
+                this.btnCopy.FlatStyle = FlatStyle.Flat;
+                this.btnCopy.FlatAppearance.BorderSize = 0; // Removes the border
+                this.btnCopy.FlatAppearance.BorderColor = Color.FromArgb(64, 64, 64); // Sets border colour if needed
+                this.txtSource.BackColor = Color.FromArgb(128, 128, 128);
+                //https://www.rapidtables.com/web/color/RGB_Color.html
+
+            }
+            else
+            {
+                this.BackColor = SystemColors.Control;
+
+            }
+           
+        }
     }
 }
